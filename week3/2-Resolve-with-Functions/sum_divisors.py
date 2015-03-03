@@ -1,6 +1,7 @@
 def sum_divisors(x):
+    from divisors import divisors
     collector=0
-    for i in (x):
+    for i in (divisors(x)):
         collector+=i
     return collector
 
